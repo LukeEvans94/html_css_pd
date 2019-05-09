@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+h1,h2 {
+    color: #00960b;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.mainText {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.authorText {
+    font-size: 22px;
+}
+
+.container {
+
+}
+
