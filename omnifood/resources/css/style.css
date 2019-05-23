@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-html {
+html,body {
     color: #555;
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom:1}
@@ -81,7 +82,7 @@ a:link {
 }
 
 a:hover,
-a:active{
+a:active {
     color: #555;
     border-bottom: 1px solid transparent;
 }
@@ -182,7 +183,7 @@ footer p {
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active{
+.footer-nav li a:active {
     color: #ddd;
 }
 
@@ -220,7 +221,7 @@ footer p {
 
 .btn:link,
 btn:visited,
-input[type=submit]{
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -239,7 +240,7 @@ input[type=submit] {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited{
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
@@ -253,12 +254,12 @@ input[type=submit]:active {
 
 .btn-full:hover,
 .btn-full:active,
-input[type=submit]{
+input[type=submit] {
     border: 1px solid #cf6d17;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
 }
@@ -282,7 +283,7 @@ input[type=submit]{
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
